@@ -17,14 +17,21 @@ GROUP BY branch;
 -- 4. CGPA vs Salary analysis
 SELECT 
     CASE 
-        WHEN cgpa >= 9 THEN '9+'
-        WHEN cgpa >= 8 THEN '8–9'
+        WHEN s.cgpa >= 9 THEN '9+'
+        WHEN s.cgpa >= 8 THEN '8–9'
         ELSE 'Below 8'
     END AS cgpa_range,
-    ROUND(AVG(package_lpa),2) AS avg_package
+    ROUND(AVG(p.package_lpa), 2) AS avg_package
 FROM students s
-JOIN placements p ON s.student_id = p.student_id
-GROUP BY cgpa_range;
+JOIN placements p 
+    ON s.student_id = p.student_id
+GROUP BY 
+    CASE 
+        WHEN s.cgpa >= 9 THEN '9+'
+        WHEN s.cgpa >= 8 THEN '8–9'
+        ELSE 'Below 8'
+    END;
+
 
 -- 5. Top 3 highest paid students
 SELECT s.name, s.branch, p.package_lpa
