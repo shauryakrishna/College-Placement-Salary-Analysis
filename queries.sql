@@ -34,11 +34,11 @@ GROUP BY
 
 
 -- 5. Top 3 highest paid students
-SELECT s.name, s.branch, p.package_lpa
+SELECT TOP 3 s.name, s.branch, p.package_lpa
 FROM students s
 JOIN placements p ON s.student_id = p.student_id
-ORDER BY p.package_lpa DESC
-LIMIT 3;
+ORDER BY p.package_lpa DESC;
+
  --6. Placement Rate 
 SELECT 
 COUNT(DISTINCT p.student_id)*100.0 / COUNT(s.student_id) AS placement_rate_percentage
