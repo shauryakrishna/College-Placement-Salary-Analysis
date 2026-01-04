@@ -47,5 +47,3 @@ INSERT INTO placements VALUES
 (14,18,107,10.8),
 (15,19,106,7.9);
 
-###DATA OUTPUT 
-![DATA OUTPUT](C:\Users\shaur\OneDrive\Pictures\Screenshots\data.png)
