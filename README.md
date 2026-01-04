@@ -1,8 +1,7 @@
 # College Placement & Salary Analysis using SQL
 
 ## 📌 Project Overview
-This project analyzes college placement data to understand salary trends,
-branch-wise placement performance, and the impact of CGPA on salary outcomes.
+This project focuses on analyzing college placement data using SQL to uncover meaningful insights related to salary distribution, academic performance, and recruitment patterns. By working with a relational dataset consisting of students, companies, and placement records, the project answers key questions such as the relationship between CGPA and salary, branch-wise placement outcomes, and the highest compensation offered. The objective is to demonstrate practical data analysis skills using SQL for real-world academic and business decision-making.
 
 ## 📊 Dataset Description
 - Students: academic background and CGPA
