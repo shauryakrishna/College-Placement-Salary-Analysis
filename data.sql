@@ -1,0 +1,48 @@
+INSERT INTO students VALUES
+(1,'Amit','Economics',7.8),
+(2,'Riya','Economics',8.6),
+(3,'Rahul','Economics',6.9),
+(4,'Sneha','Economics',9.1),
+(5,'Kunal','Commerce',7.2),
+(6,'Neha','Commerce',8.0),
+(7,'Arjun','Commerce',8.7),
+(8,'Pooja','Commerce',6.8),
+(9,'Vikas','Mathematics',9.2),
+(10,'Ananya','Mathematics',8.9),
+(11,'Rohit','Mathematics',7.6),
+(12,'Simran','Mathematics',8.3),
+(13,'Aakash','Statistics',9.0),
+(14,'Isha','Statistics',8.4),
+(15,'Manish','Statistics',7.1),
+(16,'Nidhi','Statistics',8.8),
+(17,'Sahil','Computer Science',9.3),
+(18,'Priya','Computer Science',8.5),
+(19,'Karthik','Computer Science',7.9),
+(20,'Mehul','Computer Science',6.7);
+
+INSERT INTO companies VALUES
+(101,'Deloitte','Consulting'),
+(102,'EY','Consulting'),
+(103,'KPMG','Consulting'),
+(104,'HDFC','Banking'),
+(105,'ICICI','Banking'),
+(106,'TCS','IT'),
+(107,'Infosys','IT'),
+(108,'Amazon','Technology');
+
+INSERT INTO placements VALUES
+(1,1,101,7.5),
+(2,2,102,9.2),
+(3,4,103,10.1),
+(4,5,104,6.8),
+(5,6,105,7.4),
+(6,7,101,8.9),
+(7,9,108,14.0),
+(8,10,108,13.2),
+(9,12,106,7.1),
+(10,13,102,11.0),
+(11,14,103,9.6),
+(12,16,104,8.4),
+(13,17,108,15.5),
+(14,18,107,10.8),
+(15,19,106,7.9);
